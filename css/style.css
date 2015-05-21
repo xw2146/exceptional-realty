@@ -250,7 +250,6 @@ a.fbook { background-position: 0 0; }
 a.fbook:hover { background-position: -40px 0; }
 a.fbook:active { background-position: -80px 0; }
 
-<<<<<<< HEAD
 a.twit { background-position: 0 -40px; }
 a.twit:hover { background-position: -40px -40px; }
 a.twit:active { background-position: -80px -40px; }
@@ -262,15 +261,11 @@ a.gplus:active { background-position: -80px -80px; }
 /*////////// HEADER //////////*/
 
 header {
-=======
-header{
->>>>>>> be7aa6cb26db35c1503e7c00be425bc5fe4b8558
   margin: 0 0 30px;
 }
 
 /*////////// NAVBAR //////////*/
 
-<<<<<<< HEAD
 #navbar {
   position: fixed;
   top: 0;
@@ -303,40 +298,6 @@ header{
   color: white;
 }
 
-=======
-#navbar{
-  position: fixed;
-  top:0;
-  left: 0;
-  width:100%;
-  z-index: 2;
-  border-bottom: 1px solid #ccc;
-  text-align:center;
-}
-
-#navbar nav{
-  border-left: 1px solid #ccc;
-}
-
-#navbar nav a {
-  display: inline-block;
-  width: 16.6666666667%;
-  margin: 0;
-  padding: 22px 0;
-  text-transform: uppercase;
-  color: black;
-  text-align: center;
-  border-right: 1px solid #ccc;
-  text-decoration: none;
-  font: 1em "Trebuchet MS", Arial, sans-serif;
-} 
-
-#navbar nav a.selected {
-  background: #333;
-  color: white;
-}
-
->>>>>>> be7aa6cb26db35c1503e7c00be425bc5fe4b8558
 #navbar nav a:hover {
   color: white;
   background: rgb(0,0,0); /* Old browsers */
@@ -347,10 +308,6 @@ header{
   background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
 }
-<<<<<<< HEAD
-=======
-/*////////// LOGO //////////*/
->>>>>>> be7aa6cb26db35c1503e7c00be425bc5fe4b8558
 
 #navbar nav a.menu-icon {
   display: none;
@@ -366,7 +323,6 @@ header{
   padding: 84px 0 0;
 }
 #logo h1 {
-<<<<<<< HEAD
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -386,15 +342,6 @@ header{
   top: -9px;
   left: 5px;
   color: #303;
-=======
-  font-family: 'Clicker Script', cursive;
-  margin: 0;
-}
-
-#logo h2 {
-  font-family: 'Elsie Swash Caps', cursive;
-  margin: 0;
->>>>>>> be7aa6cb26db35c1503e7c00be425bc5fe4b8558
 }
 
 /*////////// MAIN SECTIONS //////////*/
@@ -430,7 +377,6 @@ section {
 }
 
 /*////////// FOOTER //////////*/
-<<<<<<< HEAD
 
 footer {
   text-align: center; 
@@ -439,15 +385,4 @@ footer {
   background: #eee;
   border-top: 1px solid; 
 }
-
-
-=======
-footer {
-  text-align: center;
-  font-size: 0.75em;
-  padding: 10px;
-  background: #eee;
-  border-top: 1px solid #ccc;
-}
->>>>>>> be7aa6cb26db35c1503e7c00be425bc5fe4b8558
 
